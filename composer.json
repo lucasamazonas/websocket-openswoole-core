@@ -1,0 +1,24 @@
+{
+    "name": "lyzframework/websocket-core",
+    "autoload": {
+        "psr-4": {
+            "LyzFramework\\Websocket\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "lucasamazonas",
+            "email": "lucassilvaamazonas@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "lyzframework/directory-class-reader": "^1.0"
+    },
+    "require-dev": {
+        "openswoole/ide-helper": "~22.0.1",
+        "phpunit/phpunit": "^10.3.0"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
