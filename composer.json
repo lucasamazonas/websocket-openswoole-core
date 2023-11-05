@@ -1,5 +1,6 @@
 {
     "name": "lyzframework/websocket-core",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "LyzFramework\\Websocket\\": "src/"
