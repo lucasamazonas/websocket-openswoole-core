@@ -4,13 +4,13 @@ declare(strict_types=1);
 
 namespace LyzFramework\Websocket\Event;
 
-use LyzFramework\src\App;
+use OpenSwoole\WebSocket\Server;
 
 class StartEvent
 {
 
     public function __construct(
-        public readonly App $app,
+        public readonly Server $server,
     )
     {
     }
